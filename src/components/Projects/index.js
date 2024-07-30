@@ -34,6 +34,13 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
          
+          <Divider />
+          {toggle === 'CSV Processor' ?
+            <ToggleButton active value="CSV Processor" onClick={() => setToggle('CSV Processor')}>CSV Processor</ToggleButton>
+            :
+            <ToggleButton value="CSV Processor" onClick={() => setToggle('CSV Processor')}>CSV Processor</ToggleButton>
+          }
+          <Divider />
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
