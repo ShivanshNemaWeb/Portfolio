@@ -1,3 +1,5 @@
+import paperTrading from '../images/paperTrading.jpg'
+import Medical from '../images/medico.jpg'
 export const Bio = {
   name: "Shivansh Nema",
   roles: [
@@ -408,6 +410,43 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 0,
+    title: "Paper Trading Website",
+    date: "Jul 2024 - Jul 2024",
+    description:
+      "Designed and Developed a full-stack paper trading platform using Next.js, Node.js, and MongoDB within a tight 20-day timeframe. Implemented core trading features, allowing users to create accounts, search for stocks, execute buy/sell transactions, and manage their portfolios and watchlists with real-time data from the Yahoo Finance API. Enhanced User Experience by integrating investment and profit graphs, enabling users to visualize their financial performance and transaction history effectively. Optimized Monolithic Architecture in backend design, ensuring scalability and maintainability, while following industry best practices and translating complex business requirements into technical solutions. Documented Entire Project meticulously, including Postman API documentation, ensuring smooth collaboration with the client and future scalability. Achieved a 100% project completion rate within the deadline, maintaining high client satisfaction by delivering a robust and user-friendly platform. Technologies Used: Nextjs, NodeJs, ExpressJs, MongoDB, Yahoo Finance API",
+    image:paperTrading,
+    tags: [
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "NextJs",
+      "Yahoo Finance API",
+      
+      ],
+      category: "web app",
+      github: "https://github.com/ShivanshNemaWeb/stock-frontend-new",
+      webapp: "https://stock-frontend-new-s67e-p35btt5zt-edgecases-projects.vercel.app/",
+  },
+  {
+    id: 0,
+    title: "Medical Ecommerce",
+    date: "Aug 2024 - Aug 2024",
+    description:
+      "The e-commerce website for medicines is a comprehensive platform designed to streamline the purchase and navigation of pharmaceutical products. Built using React and Node.js, the site offers a seamless user experience with features such as advanced search, filtering options, and detailed product descriptions to help customers find the right medicines quickly. The platform supports secure payments and provides order tracking for a transparent shopping experience. Additionally, an admin panel allows administrators to manage products, categories, orders, and user data efficiently. Designed with scalability in mind, the website is fully responsive and optimized for performance, catering to both desktop and mobile users, making it a robust solution for modern online pharmaceutical sales.",
+    image:Medical,
+    tags: [
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "ReactJs",
+      ],
+      category: "web app",
+      github: "https://github.com/ShivanshNemaWeb/medical-ecom",
+      webapp: "https://medical-ecom-9vwld36kb-edgecases-projects.vercel.app/",
+  },
+
   {
     id: 0,
     title: "RentIt",
