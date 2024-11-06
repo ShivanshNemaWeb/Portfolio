@@ -426,8 +426,8 @@ export const projects = [
       
       ],
       category: "web app",
-      github: "https://github.com/ShivanshNemaWeb/stock-frontend-new",
-      webapp: "https://stock-frontend-new-s67e-p35btt5zt-edgecases-projects.vercel.app/",
+      github: "https://github.com/ShivanshNemaWeb/paper-trading-frontend",
+      webapp: "https://paper-trading-frontend-virid.vercel.app/",
   },
   {
     id: 0,
