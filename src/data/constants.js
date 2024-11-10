@@ -444,7 +444,7 @@ export const projects = [
       ],
       category: "web app",
       github: "https://github.com/ShivanshNemaWeb/medical-ecom",
-      webapp: "https://medical-ecom-9vwld36kb-edgecases-projects.vercel.app/",
+      webapp: "https://www.babakibooty.com/",
   },
 
   {
